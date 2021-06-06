@@ -10,6 +10,13 @@ spring:
     data: classpath:db/data.sql
     username: root
     password: P2ssw0rd
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+    url: jdbc:mysql://fivnzsje1082.chinanorth2.cloudapp.chinacloudapi.cn:3306/boathouse?characterEncoding=utf-8
+    user: root
+    password: P2ssw0rd
 
 server:
   #访问端口号

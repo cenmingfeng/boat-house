@@ -100,6 +100,11 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>5.2.4</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -124,6 +129,11 @@
 					</formats>
 					<check/>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<version>5.0.3</version>
 			</plugin>
 		</plugins>
 	</build>
