@@ -7,3 +7,6 @@ CREATE TABLE `join_us`
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
+
+
+  CI-110_eeddd

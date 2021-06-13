@@ -5,18 +5,18 @@ spring:
   #jdbc 配置文件内容
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://fivnzsje1082.chinanorth2.cloudapp.chinacloudapi.cn:3306/BoatHouse?characterEncoding=utf-8
+    url: jdbc:mysql://10.0.2.126:3306/boathouse?characterEncoding=utf-8
     schema: classpath:db/schema.sql
     data: classpath:db/data.sql
     username: root
-    password: P2ssw0rd
+    password: yunzhihui123
   flyway:
     enabled: true
     baseline-on-migrate: true
     baseline-version: 0
-    url: jdbc:mysql://fivnzsje1082.chinanorth2.cloudapp.chinacloudapi.cn:3306/boathouse?characterEncoding=utf-8
+    url: jdbc:mysql://10.0.2.126:3306/boathouse?characterEncoding=utf-8
     user: root
-    password: P2ssw0rd
+    password: yunzhihui123
 
 server:
   #访问端口号
