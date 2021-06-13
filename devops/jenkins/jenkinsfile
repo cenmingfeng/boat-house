@@ -15,10 +15,7 @@ def getHost() {
 
 pipeline {
     // 
-    agent 
-    { 
-        label 'vm-slave' 
-    }
+    agent any
     options {
         buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '5', numToKeepStr: '10')
     }
